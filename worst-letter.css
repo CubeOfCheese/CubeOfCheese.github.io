@@ -5,3 +5,50 @@
 li:hover .extra-info {
     display: block;
 }
+
+a {
+  text-decoration: none;
+}
+
+/** Ethicli *******************************************************************/
+
+#ethicli{
+  position: fixed;
+  right: -320px;
+  width: 400px;
+}
+
+#ethicli:hover{
+  right: -10px;
+}
+
+#ethicli a{
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  color: #333;
+  width: 350px;
+  font-size: 0.8em;
+  background:  rgb(219, 219, 206);
+  padding: 16px;
+  border-radius: 100px;
+}
+
+#ethicli a:hover{
+  opacity: 1;
+}
+
+#ethicli h3{
+  margin-bottom: 0px;
+  color: rgb(101, 145, 80);
+}
+
+#ethicli h3:hover{
+  margin-bottom: 0px;
+  color: #c8ae1e;
+}
+
+#ethicli img{
+  height: 50px;
+  margin-right: 20px;
+}
