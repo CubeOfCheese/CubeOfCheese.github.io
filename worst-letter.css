@@ -1,0 +1,7 @@
+.extra-info {
+  display: none;
+}
+
+li:hover .extra-info {
+    display: block;
+}
