@@ -1,0 +1,39 @@
+.current {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+#info {
+  border-style: solid;
+  border-width: 2px;
+  border-color: transparent;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+#info:hover {
+  background: #763394;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(142, 112, 155) rgb(91, 61, 104) rgb(91, 61, 104) rgb(142, 112, 155);
+  border-radius: 10px;
+}
+
+#info-card {
+  display: none;
+  margin: 5px;
+  margin-right: 25px;
+}
+
+#info:hover > #info-card {
+  display: block;
+}
+
+#info-icon {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}

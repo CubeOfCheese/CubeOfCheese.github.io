@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300;700&display=swap');
-@import "./ethicli-popout.css";
 
 html {
   margin: 0;
@@ -142,4 +141,3 @@ p {
   border: solid rgba(0, 0, 0, 0.5) 1px;
   border-radius: 2px;
 }
-
