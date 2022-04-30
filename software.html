@@ -4,10 +4,12 @@
     <meta charset="utf-8">
     <title></title>
     <link rel="stylesheet" href="./software.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
-      <h1><a href="/">CubeOfCheese</a></h1>
       <div id="info">
         <img id="info-icon" src="images/info-icon.png" alt="info icon">
         <div id="info-card">
@@ -21,20 +23,31 @@
       </div>
     </header>
 
-    <h1>Billy T., the Fullstack Software Developer</h1>
+    <h1>Billy T.</h1>
+    <h2>the Fullstack Software Developer</h2>
     <p>I am passionate about sustainability, transportation, and cheese bagels. I'm a full stack software developer with a knack for UX design.</p>
     <h2>Technologies</h2>
-    <ul>
-      <img src="./images/react.png" alt="React JS">
-      <img src="./images/node_js.png" alt="Node JS">
+    <ul id="technologies">
+      <img src="./images/react.png" alt="React JS logo">
+      <img src="./images/node_js.png" alt="Node JS logo">
+      <img src="./images/postgresql_elephant.svg" alt="Postgresql logo">
     </ul>
     <section class="current">
-      <h2>Current</h2>
-      <div class="">
-        <a href="https://aquaoso.com/about/#team"><img src="https://mma.prnewswire.com/media/806183/AquaOso_Logo.jpg?p=publish" alt=""t/></a>
-        <p>AQUAOSO</p>
+      <h2>Current Position</h2>
+
+      <div id="current-position">
+        <img id="current-position-image" src="https://mma.prnewswire.com/media/806183/AquaOso_Logo.jpg?p=publish" alt="">
+        <div href="https://aquaoso.com/about/#team" class="current-position-content">
+          <p>Software Engineer</p>
+          <a  href="https://aquaoso.com/about/#team">AQUAOSO</a>
+        </div>
+        </a>
       </div>
-      <a href="https://ethicli.com/team"><img src="https://cdn.filepicker.io/api/file/3X3sFkhAT0Cw1gNAiiem" alt=""></a>
     </section>
+    <footer style="display: flex; justify-content: center;">
+      <a href="https://www.linkedin.com/in/billy-t-hernandez/">
+        <img style="height: 5vh" src="./images/linkedin-icon.png" alt="linkedin logo">
+      </a>
+    </footer>
   </body>
 </html>
