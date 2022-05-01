@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="./software.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
@@ -25,7 +25,7 @@
 
     <h1>Billy T.</h1>
     <h2>the Fullstack Software Developer</h2>
-    <p>I am passionate about sustainability, transportation, and cheese bagels. I'm a full stack software developer with a knack for UX design.</p>
+    <p>I am passionate about sustainability, transportation, and cheese bagels.</p>
     <h2>Technologies</h2>
     <ul id="technologies">
       <img src="./images/react.png" alt="React JS logo">
@@ -44,10 +44,20 @@
         </a>
       </div>
     </section>
-    <footer style="display: flex; justify-content: center;">
+    <footer>
       <a href="https://www.linkedin.com/in/billy-t-hernandez/">
-        <img style="height: 5vh" src="./images/linkedin-icon.png" alt="linkedin logo">
+        <img style="height: 3vh; padding: 10px;" src="./images/linkedin-icon.png" alt="linkedin logo">
       </a>
+      <p id="email">cubeofcheese@gmail.com <img id='email-clipboard' src="./images/clipboard.svg" alt=""> </p>
     </footer>
+    <script type="text/javascript">
+      document.getElementById('email').onclick = function() {
+        navigator.clipboard.writeText('cubeofcheese@gmail.com')
+        document.getElementById('email-clipboard').src = './images/clipboard-check.svg';
+        setTimeout(function() {
+            document.getElementById('email-clipboard').src = './images/clipboard.svg';
+        }, 1000);
+      };
+    </script>
   </body>
 </html>
