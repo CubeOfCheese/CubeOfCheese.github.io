@@ -25,31 +25,65 @@
 
     <h1>Billy T.</h1>
     <h2>the Fullstack Software Developer</h2>
-    <p>I am passionate about sustainability, transportation, and cheese bagels.</p>
+    <p>I am passionate about sustainability 🪴, transportation 🚃, and cheese bagels 🥯.</p>
     <h2>Technologies</h2>
     <ul id="technologies">
-      <img src="./images/react.png" alt="React JS logo">
-      <img src="./images/node_js.png" alt="Node JS logo">
-      <img src="./images/postgresql_elephant.svg" alt="Postgresql logo">
+      <div class="tech-card">
+        <div class="tech-card-front">
+          <img src="./images/react.png" alt="React JS logo">
+        </div>
+        <div class="tech-card-back">
+          <p>React</p>
+          <p>2+ years experience</p>
+          <p>Prototyped, iterated, and implemented new UI.</p>
+        </div>
+      </div>
+      <div class="tech-card">
+        <div class="tech-card-front">
+          <img src="./images/node_js.png" alt="Node JS logo">
+        </div>
+        <div class="tech-card-back">
+          <p>Node.js</p>
+          <p>2+ years experience</p>
+          <p>30+ api routes created</p>
+        </div>
+      </div>
+      <div class="tech-card">
+        <div class="tech-card-front">
+          <img src="./images/postgresql_elephant.svg" alt="Postgresql logo">
+        </div>
+        <div class="tech-card-back">
+          <p>PostgreSQL</p>
+          <p>1.5+ years experience</p>
+          <p>Developed complex queries with multiple layers of subqueries and
+            dynamic clauses for a key feature to business success.</p>
+        </div>
+      </div>
     </ul>
     <section class="current">
       <h2>Current Position</h2>
 
       <div id="current-position">
-        <img id="current-position-image" src="https://mma.prnewswire.com/media/806183/AquaOso_Logo.jpg?p=publish" alt="">
-        <div href="https://aquaoso.com/about/#team" class="current-position-content">
-          <p>Software Engineer</p>
-          <a  href="https://aquaoso.com/about/#team">AQUAOSO</a>
-        </div>
+        <a href="https://aquaoso.com/about/#team">
+          <img id="current-position-image" src="https://mma.prnewswire.com/media/806183/AquaOso_Logo.jpg?p=publish" alt="">
+          <div class="current-position-content">
+            <p>Software Engineer</p>
+            <p>150+ pull requests merged</p>
+            <p>15,000+ lines of code</p>
+            <p>Took lead on development of major features.</p>
+          </div>
         </a>
       </div>
     </section>
+
     <footer>
       <a href="https://www.linkedin.com/in/billy-t-hernandez/">
         <img style="height: 3vh; padding: 10px;" src="./images/linkedin-icon.png" alt="linkedin logo">
       </a>
       <p id="email">cubeofcheese@gmail.com <img id='email-clipboard' src="./images/clipboard.svg" alt=""> </p>
     </footer>
+
+
     <script type="text/javascript">
       document.getElementById('email').onclick = function() {
         navigator.clipboard.writeText('cubeofcheese@gmail.com')

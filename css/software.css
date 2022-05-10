@@ -61,6 +61,45 @@ footer {
   height: 15vw;
 }
 
+.tech-card {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tech-card:hover .tech-card-front {
+  filter: blur(4px);
+}
+
+.tech-card-back {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 5px;
+  color: #fff;
+  opacity: 0;
+  transition: opacity 0.2s;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.tech-card-back:hover {
+  visibility: visible;
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
 #current {
   position: relative;
 }
@@ -72,6 +111,12 @@ footer {
 #current-position-image {
   width: 100%;
   opacity: 80%;
+  transform: scale(1.03);
+}
+
+#current-position:hover #current-position-image {
+  filter: blur(4px);
+  opacity: 0.4;
 }
 
 .current-position-content {
@@ -95,5 +140,4 @@ footer {
 .current-position-content:hover {
   visibility: visible;
   opacity: 1;
-  background-color: rgba(0, 0, 0, 0.5);
 }
