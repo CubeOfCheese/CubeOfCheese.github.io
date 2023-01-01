@@ -141,3 +141,41 @@ footer {
   visibility: visible;
   opacity: 1;
 }
+
+.card {
+  position: relative;
+}
+
+.card-front {
+  width: 100%;
+  opacity: 80%;
+  transform: scale(1.03);
+}
+
+.card:hover .card-front {
+  filter: blur(4px);
+  opacity: 0.4;
+}
+
+.card-content {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #fff;
+  opacity: 0;
+  transition: opacity 0.2s;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.card-content:hover {
+  visibility: visible;
+  opacity: 1;
+}
