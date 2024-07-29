@@ -6,7 +6,7 @@ html {
 }
 
 body {
-  background-image: url("images/background-home.JPG");
+  background-image: url("/images/background-home.JPG");
   background-position: bottom;
   background-size: 100%;
   background-repeat: no-repeat;
